@@ -7,6 +7,8 @@ st.set_page_config(layout="wide")
 st.markdown("""
     <style>
     .main {
+        padding-top: 50px;   /* 设置上边距 */
+        padding-bottom: 50px;  /* 设置下边距 */
         max-width: 1000px;
         margin: auto;
     }
