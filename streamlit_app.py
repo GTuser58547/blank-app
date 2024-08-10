@@ -1,5 +1,8 @@
 import streamlit as st
 
+# 设置页面配置为宽屏模式
+st.set_page_config(layout="wide")
+
 st.title("🎈 My new app")
 st.write(
     "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/).（左边这儿是开发者看的。）"
