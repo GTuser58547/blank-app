@@ -1,7 +1,17 @@
 import streamlit as st
 
-# 设置页面配置为宽屏模式
+# 设置页面配置
 st.set_page_config(layout="wide")
+
+# 使用 CSS 设置全局样式
+st.markdown("""
+    <style>
+    .main {
+        max-width: 1000px;
+        margin: auto;
+    }
+    </style>
+    """, unsafe_allow_html=True)
 
 st.title("🎈 My new app")
 st.write(
